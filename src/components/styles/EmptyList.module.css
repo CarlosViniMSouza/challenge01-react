@@ -1,0 +1,20 @@
+.empty {
+    width: 736px;
+    height: 244px;
+    display: flex;
+    align-items: center;
+    padding: 64px 24px;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+}
+
+.emptyInfo {
+    line-height: 1.4;
+    text-align: center;
+    color: var(--gray-300);
+    font-weight: bold;
+    font-size: 1rem;
+}
